@@ -10,6 +10,7 @@ The **Abstract Models of Computation** course explores theoretical foundations o
 - Turing Machines
 - Computability and Complexity Theory
 - NP-completeness and P vs NP problem
+- ...
 
 ## How to Use This Repository
 
