@@ -9,6 +9,7 @@ print("EXERCISE 1")
 def absoluteValue(num):
     return abs(num)
 
+#TEST CASE
 print(absoluteValue(-5))
 print(absoluteValue(0))
 print(absoluteValue(-11))
@@ -21,6 +22,7 @@ print("EXERCISE 2")
 def sum(num1, num2):
     return num1 + num2
 
+#TEST CASE
 print(sum(-5, 2))
 print(sum(5, 2))
 print(sum(0, -12))
@@ -34,6 +36,7 @@ print("EXERCISE 3")
 def celsiusToFahrenheit(temperature):
     return (9/5)*temperature + 32
 
+#TEST CASE
 print(celsiusToFahrenheit(5))
 print(celsiusToFahrenheit(-12))
 print(celsiusToFahrenheit(43))
@@ -49,6 +52,7 @@ def calculateSphereArea(radius):
     pi = math.pi
     return 4 * pi * (radius ** 2)
 
+#TEST CASE
 print(calculateSphereArea(4))
 print(calculateSphereArea(0))
 print(calculateSphereArea(21.1))
@@ -72,7 +76,7 @@ def verifyValues(a, b, c):
     assert c > a, "Error: c is not greater than a"
     return "Conditions are correct!"
 
-
+#TEST CASE
 print(verifyValues(4, 4, 6))
 print(verifyValues(2, 5, 6))
 print(verifyValues(4, 4, 2))
@@ -93,6 +97,7 @@ def calculateEuclideanDistance(x1, y1, x2, y2):
     num2 = (y2 - y1) ** 2
     return math.sqrt(num1 + num2)
 
+#TEST CASE
 print(calculateEuclideanDistance(2, 4, 2, 3))
 print(calculateEuclideanDistance(0, 4, 12, 4.2))
 print(calculateEuclideanDistance(1.2, 1.2, 1.2, 1.2))
@@ -113,6 +118,7 @@ def exerciseCalculation(x, y):
     num3 = math.exp(math.log(x))
     return num1 + num2 + num3
 
+#TEST CASE
 print(exerciseCalculation(2, 3))
 print(exerciseCalculation(5, 5))
 print(exerciseCalculation(10, 5))
@@ -134,6 +140,7 @@ def createList():
 # usually come with a series of built-in functions that allow us to modify the list in more ways
 # than numerical arrays in other programming languages.
 
+#TEST CASE
 print(createList())
 
 print("-----------------------------------------------------------------------------")
@@ -151,6 +158,7 @@ def replaceFours(list):
 listOfFours1 = [4, 4, 4]
 listOfFours2 = [4, 1, 2, 2, 2, 2, 3, 4, 99, 0, 1, 4]
 
+#TEST CASE
 print(replaceFours(listOfFours1))
 print(replaceFours(listOfFours2))
 
@@ -192,6 +200,7 @@ list1 = [1, 3, 17, 22, 7]
 list2 = [21, 31, 11, 10]
 list3 = [6, 11, 27, 32, 33]
 
+#TEST CASE
 print(collatzIterationsForEachNumber(list1))
 print(collatzIterationsForEachNumber(list2))
 print(collatzIterationsForEachNumber(list3))
@@ -208,6 +217,7 @@ def initializeMatrix():
     matrix = [[1, 2, 3], [4, 5, 1], [1, 2, -1], [2, 2, 2], [0, -3, -4], [0, 1, -1]]
     return matrix
 
+#TEST CASE
 print(initializeMatrix())
 
 
@@ -233,6 +243,7 @@ matrix1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 matrix2 = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
 matrix3 = [[-1, 2, 3], [-4, 5, -1], [7, -1, 9]]
 
+#TEST CASE
 print(countOccurrencesInMatrix(matrix1, 5))
 print(countOccurrencesInMatrix(matrix2, 1))
 print(countOccurrencesInMatrix(matrix3, -1))
@@ -259,6 +270,7 @@ matrixA = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 matrixB = [[10, 2, 3], [-1, 0, 1], [8, 9, 7]]
 matrixC = [[5, 4, 2], [3, 7, 6], [1, 10, 8]]
 
+#TEST CASE
 print(isNumberBetweenFourAndSeven(matrixA))
 print(isNumberBetweenFourAndSeven(matrixB))
 print(isNumberBetweenFourAndSeven(matrixC))
@@ -292,9 +304,9 @@ booleanList1 = [True, True, True, True, False, False]
 numberList2 = [1, -2, 3, 0, -5]
 booleanList2 = [True, False, True, False, False]
 
+#TEST CASE
 print(compareBooleansToNumbers(numberList1, booleanList1))
 print(compareBooleansToNumbers(numberList2, booleanList2))
 
-print(compararBooleanosANumeros(listaNums2, listaBools2))
 
 
