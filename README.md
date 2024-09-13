@@ -33,7 +33,7 @@ The **Abstract Models of Computation** course explores theoretical foundations o
 ## Requirements.
 
 - Python 3.x
-- Additional libraries for specific labs (check the README of each lab folder for specific requirements).
+- Additional libraries for specific labs.
 
 ## License
 
